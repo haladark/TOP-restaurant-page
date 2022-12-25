@@ -1,0 +1,69 @@
+:root{
+  --golden-color: linear-gradient(
+    to right,
+    #462523 0,
+    #c6a677 12%,
+    #f3da8d 40%,
+    #f6f2c0 50%,
+    #f3da8d 60%,
+    #c6a677 88%,
+    #462523 100% 
+  ); 
+  --background:#0b1826;
+  --gold: rgb(243, 217, 180);
+   
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+@font-face {
+  font-family: "Madina";
+  src: url("../madina/Madina.ttf");
+}
+
+#content {
+  background-color: var(--background);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-width: 800px; 
+}
+.title{
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+.title>span{
+  font-family: "Madina", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 6rem;
+  letter-spacing: 0.9rem;
+  padding: 8px;
+  color: transparent;
+  width:fit-content;
+  background:var(--golden-color);
+
+  background-clip: text;
+  -webkit-background-clip:text
+
+}
+.nav{
+  border-bottom: 2px solid var(--gold); 
+}
+
+.nav>ul{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  list-style: none;
+  color:var(--gold);
+}
+
+li{
+  cursor: pointer;
+}

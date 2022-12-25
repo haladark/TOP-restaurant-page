@@ -1,0 +1,45 @@
+.home{
+  background-image:
+  linear-gradient(
+    to right,
+    #0b1826 35%,
+    60%,
+    transparent 100%
+    ),
+    url(../images/restaurant2.jpg);
+    
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+  display: flex;
+  flex:1;
+  
+}
+
+.banner{
+  color:transparent;
+  font-size: 2.1rem;
+  text-align: center;
+  padding: 3rem;
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:var(--golden-color);
+  background-clip: text;
+  -webkit-background-clip:text
+}
+
+.homeFooter{
+  text-align: center;
+  font-size: 0.9rem;
+  color:white;
+  background-color: #0b182690;
+  color:var(--gold);
+  margin-top: auto;
+  position: absolute;
+  left:50%;
+  bottom: 0;
+  padding:8px;
+  border-radius: 15px;
+}
