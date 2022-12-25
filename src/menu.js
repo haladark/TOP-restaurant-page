@@ -1,12 +1,7 @@
 const menuLoad = () => {
 
-
   const main = document.createElement("main");
-
-
   main.classList.add('menu');
-
-
   main.innerHTML = 
     ` 
     <div class = container>
@@ -79,11 +74,8 @@ const menuLoad = () => {
     Created by Halla Idris
     </footer>
       `;
-     
-
 
     content.append(main);
-
 };
 
 export {menuLoad};

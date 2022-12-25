@@ -1,11 +1,7 @@
 const contactLoad = () => {
 
   const main = document.createElement("main");
-
-
   main.classList.add('contact');
- 
-
   main.innerHTML = 
     ` 
       <p>Contact us</p>

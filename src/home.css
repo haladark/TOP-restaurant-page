@@ -12,8 +12,9 @@
   background-position: center right;
   background-repeat: no-repeat;
   display: flex;
+  flex-direction: column;
   flex:1;
-  
+  justify-content: center;
 }
 
 .banner{
@@ -23,23 +24,19 @@
   padding: 2rem;
   width: 35vw;
   display: flex;
-  align-items: center;
-  justify-content: center;
   background:var(--golden-color);
   background-clip: text;
-  -webkit-background-clip:text
+  -webkit-background-clip:text;
 }
 
 .homeFooter{
   text-align: center;
   font-size: 0.9rem;
-  color:white;
   background-color: #0b182690;
   color:var(--gold);
-  margin-top: auto;
   position: absolute;
-  left:50%;
+  letter-spacing: 1.2px;
   bottom: 0;
   padding:8px;
-  border-radius: 15px;
+  border-radius: 15px; 
 }

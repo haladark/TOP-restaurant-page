@@ -21,26 +21,20 @@ home.addEventListener('click', ()=> {
 
   var temp = document.querySelector("main");
   temp.remove();
-
   homeLoad();
-
 })
 
 menu.addEventListener('click', ()=> {
 
   var temp = document.querySelector("main");
   temp.remove();
-
   menuLoad();
-
 });
 
 contact.addEventListener('click', ()=> {
 
   var temp = document.querySelector("main");
   temp.remove();
-
   contactLoad();
-
 });
 

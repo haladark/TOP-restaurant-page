@@ -10,8 +10,7 @@
     #462523 100% 
   ); 
   --background:#0b1826;
-  --gold: rgb(243, 217, 180);
-   
+  --gold: rgb(243, 217, 180);  
 }
 
 *{
@@ -48,11 +47,10 @@
   color: transparent;
   width:fit-content;
   background:var(--golden-color);
-
   background-clip: text;
   -webkit-background-clip:text
-
 }
+
 .nav{
   border-bottom: 2px solid var(--gold); 
 }
