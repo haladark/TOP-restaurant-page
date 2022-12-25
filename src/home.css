@@ -38,5 +38,6 @@
   letter-spacing: 1.2px;
   bottom: 0;
   padding:8px;
-  border-radius: 15px; 
+  border-radius: 15px;
+  align-self: center; 
 }
