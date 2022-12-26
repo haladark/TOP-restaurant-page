@@ -6,7 +6,7 @@ const menuLoad = () => {
     ` 
     <div class = container>
     <div class="card">
-      <img src="../images/card1.jpg" alt="">
+      <img src="./images/card1.jpg" alt="">
       <div class="item">
         <div class="text"> Broccoli Cheddar Soup</div>
         <div class="price">$12</div>
@@ -14,7 +14,7 @@ const menuLoad = () => {
     </div>
 
     <div class="card">
-      <img src="../images/card2.jpg" alt="">
+      <img src="./images/card2.jpg" alt="">
       <div class="item">
         <div class="text">Orange Chicken and Rice</div>
         <div class="price">$18</div>
@@ -22,7 +22,7 @@ const menuLoad = () => {
     </div>
 
     <div class="card">
-      <img src="../images/card3.jpg" alt="">
+      <img src="./images/card3.jpg" alt="">
       <div class="item">
         <div class="text">Saucy Thai Chicken Pizzas</div>
         <div class="price">$18</div>
@@ -30,7 +30,7 @@ const menuLoad = () => {
     </div>
 
     <div class="card">
-      <img src="../images/card4.jpg" alt="">
+      <img src="./images/card4.jpg" alt="">
       <div class="item">
         <div class="text">Garlic Shrimp Scampi</div>
         <div class="price">$18</div>
@@ -38,7 +38,7 @@ const menuLoad = () => {
     </div>
 
     <div class="card">
-      <img src="../images/card5.jpg" alt="">
+      <img src="./images/card5.jpg" alt="">
       <div class="item">
         <div class="text">Butterburger</div>
         <div class="price">$16</div>
@@ -46,7 +46,7 @@ const menuLoad = () => {
     </div>
 
     <div class="card">
-      <img src="../images/card6.jpg" alt="">
+      <img src="./images/card6.jpg" alt="">
       <div class="item">
         <div class="text">Roast Beef</div>
         <div class="price">$22</div>
@@ -54,7 +54,7 @@ const menuLoad = () => {
     </div>
 
     <div class="card">
-      <img src="../images/card7.jpg" alt="">
+      <img src="./images/card7.jpg" alt="">
       <div class="item">
         <div class="text">Red Velvet Cheesecake</div>
         <div class="price">$26</div>
@@ -62,7 +62,7 @@ const menuLoad = () => {
     </div>
 
     <div class="card">
-      <img src="../images/card8.jpg" alt="">
+      <img src="./images/card8.jpg" alt="">
       <div class="item">
         <div class="text">Chocolate Pecan Skillet Cookie</div>
         <div class="price">$28</div>

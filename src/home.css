@@ -6,7 +6,7 @@
     60%,
     transparent 100%
     ),
-    url(../images/background.jpg);
+    url(../dist/images/background.jpg);
     
   background-size: cover;
   background-position: center right;
